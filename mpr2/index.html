@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - Portfolio Portal</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="header">
+        <h3>Explore diverse portfolios and discover unique professional journeys from our vibrant community</h3>
+        <h1>Explore <br>
+            Profiles
+        </h1>
+    </div>
+    <div class="explore-container">
+        <div class="profiles-grid">
+            <div class="profile-card" onclick="goToProfile('user1.html')">
+                <div class="profile-image">
+                    <img src="arpit.jpg" alt="User 1">
+                </div>
+                <h2>Arpit Kesari</h2>
+                <p>Frontend Developer</p>
+                <div class="profile-media-icons">
+                    <span class="fa-brands fa-twitter fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fab fa-linkedin fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fa-brands fa-discord fa-xl" style="color:#7289da"><a href="#d"></a></span>
+                </div>
+                <button onclick="goToProfile('user2.html')"
+                    style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; padding:1vw;">View
+                    Profile</button>
+            </div>
+            <div class="profile-card" onclick="goToProfile('user2.html')">
+                <div class="profile-image">
+                    <img src="rigved.jpg" alt="User 2">
+                </div>
+                <h2>Rigved Kushte</h2>
+                <p>App developer</p>
+                <div class="profile-media-icons">
+                    <span class="fa-brands fa-twitter fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fab fa-linkedin fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fa-brands fa-discord fa-xl" style="color:#7289da"><a href="#d"></a></span>
+                </div>
+                <button onclick="goToProfile('user2.html')"
+                    style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; padding:1vw;">View
+                    Profile</button>
+            </div>
+            <div class="profile-card" onclick="goToProfile('user3.html')">
+                <div class="profile-image">
+                    <img src="qais.jpg" alt="User 3">
+                </div>
+                <h2>Khan Qais</h2>
+                <p>Data Scientist</p>
+                <div class="profile-media-icons">
+                    <span class="fa-brands fa-twitter fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fab fa-linkedin fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fa-brands fa-discord fa-xl" style="color:#7289da"><a href="#d"></a></span>
+                </div>
+                <button onclick="goToProfile('user2.html')"
+                    style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; padding:1vw;">View
+                    Profile</button>
+            </div>
+            <div class="profile-card" onclick="goToProfile('user2.html')">
+                <div class="profile-image">
+                    <img src="pawan.jpg" alt="User 4">
+                </div>
+                <h2>Pawan Keswani</h2>
+                <p>Graphic Designer</p>
+                <div class="profile-media-icons">
+                    <span class="fa-brands fa-twitter fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fab fa-linkedin fa-xl" style="color: #1DA1F2;"><a href="#t"></a></span>
+                    <span class="fa-brands fa-discord fa-xl" style="color:#7289da"><a href="#d"></a></span>
+                </div>
+                <button onclick="goToProfile('user2.html')"
+                    style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; padding:1vw;">View
+                    Profile</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function goToProfile(profileUrl) {
+            window.location.href = profileUrl;
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/3a0ed13cde.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
